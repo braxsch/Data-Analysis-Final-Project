@@ -1,0 +1,24 @@
+GBM_expression_data.csv: master data set
+Age Group I: patients from age 35-65
+Age Group II: patients from age 66-85
+Age Group I t-tests: Jupyter notebook showing the code used to determine statistical significance of differences between gene expression in long-term and short-term survivors in Group I
+Age Group II t-tests: Jupyter notebook showing the code used to determine statistical significance of differences between gene expression in long-term and short-term survivors in Group II
+  - Conclusions: In *both* age group I and II, these 8 genes were differentially expressed between long- and short-term survivors:
+      - MARCH8
+      - FBXO17
+      - TFRC
+      - NSUN5
+      - MT1M
+      - RPRM
+      - ACOX2
+      - HOMER1
+GBM_data_for_clustering.csv: CSV file containing only the expression levels for the 8 differentially-expressed genes to be used for clustering
+Hierarchical Clustering Analysis: Jupyter notebook containing the code used to create a dendrogram and cluster map that can be used to determine the number of clusters, and which samples are in each cluster.
+  - Conclusions: There are 2 distinct clusters representing 2 groups of patients with distinct gene expression profiles, which can now be used to conduct Kaplan-Meier survival analysis of both groups. 
+  
+Next Steps: (1) Kaplan-Meier analysis of the two clusters 
+            (2) Logistic regression (?)
+            (3) Multivariate analysis (?)
+            
+            
+      
